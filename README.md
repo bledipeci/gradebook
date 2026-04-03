@@ -191,6 +191,8 @@ gradebook/
 
 ---
 
+## Design Decisions & Limitations
+
 ### Design Decisions
 
 * **Layered architecture**
@@ -217,6 +219,28 @@ gradebook/
 * **Logging**
 
   * Errors and actions written to `logs/app.log`
+
+---
+
+### Limitations
+
+* **No real database**
+
+  * JSON file is not scalable for large data
+
+* **No concurrency handling**
+
+  * Multiple writes could overwrite data
+
+* **Basic ID generation**
+
+  * Uses incremental IDs (not UUIDs)
+
+* **Tight coupling to storage**
+
+  * Service layer directly reads/writes JSON
+
+* **No authentication or user roles**
 
 ---
 
