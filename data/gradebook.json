@@ -1,0 +1,62 @@
+{
+    "students": [
+        {
+            "id": "1",
+            "name": "Bledi Peci"
+        },
+        {
+            "id": "2",
+            "name": "Arta Krasniqi"
+        },
+        {
+            "id": "3",
+            "name": "Luan Gashi"
+        },
+        {
+            "id": "4",
+            "name": "Dren"
+        }
+    ],
+    "courses": [
+        {
+            "code": "CS101",
+            "title": "Intro to Computer Science"
+        },
+        {
+            "code": "MATH201",
+            "title": "Discrete Mathematics"
+        }
+    ],
+    "enrollments": [
+        {
+            "student_id": "1",
+            "course_code": "CS101",
+            "grades": [
+                90,
+                85
+            ]
+        },
+        {
+            "student_id": "1",
+            "course_code": "MATH201",
+            "grades": [
+                88
+            ]
+        },
+        {
+            "student_id": "2",
+            "course_code": "CS101",
+            "grades": [
+                76,
+                82
+            ]
+        },
+        {
+            "student_id": "3",
+            "course_code": "MATH201",
+            "grades": [
+                95
+            ]
+        }
+    ]
+}
